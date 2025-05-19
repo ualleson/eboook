@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Redirecionando...</title>
+  
+  <!-- Facebook Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    
+    fbq('init', '1107193674781497');
+    fbq('track', 'Purchase', {
+      value: 10.00,
+      currency: 'BRL'
+    });
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+         src="https://www.facebook.com/tr?id=1107193674781497&ev=Purchase&cd[value]=10.00&cd[currency]=BRL&noscript=1"/>
+  </noscript>
+  <!-- End Facebook Pixel Code -->
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      background-color: #f8f8f8;
+    }
+    .message {
+      padding: 20px;
+    }
+  </style>
+
+  <script>
+    // Redireciona após 2 segundos para a URL desejada
+    setTimeout(function () {
+      window.location.href = "https://google.com"; // Substitua pela URL X
+    }, 2000);
+  </script>
+</head>
+<body>
+  <div class="message">
+    <h1>Redirecionando...</h1>
+    <p>Liberando seu Acesso ao ebook.</p>
+  </div>
+</body>
+</html>
